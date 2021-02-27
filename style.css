@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #343a40;
+}
+
+/* Cabeçalho */
+#barra-menu{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #171a21;
+    position: relative;
+}
+
+/* Barra menu central */
+a, #loja-botao{
+    color: #b8b6b4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+a, #loja-botao:hover{
+    color: white;
+}
+a, #biblioteca-botao{
+    color: #b8b6b4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 1.5em;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+a, #biblioteca-botao:hover{
+    color: white;
+}
+a, #comunidade-botao{
+    color: #b8b6b4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 1.5em;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+a, #comunidade-botao:hover{
+    color: white;
+}
+a, #seu-perfil-botao{
+    color: #b8b6b4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 1.5em;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+a, #seu-perfil-botao:hover{
+    color: white;
+}
+#paginas-menu{
+    margin-right: 50px;
+    float: left;
+    display: inline-block;
+}
+/* Setas */
+#setas-menu{
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+a, #seta-esquerda-botao{
+    color: #b8b6b4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+a, #seta-esquerda-botao:hover{
+    color: white;
+}
+a, #seta-direita-botao{
+    color: #b8b6b4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", sans-serif;
+    margin-left: 20px;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+a, #seta-direita-botao:hover{
+    color: white;
+}
+/* Barra menu superior */
+#barra-menu-superior{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+a, #steam-botao{
+    color: #3c4249;
+    text-decoration: none;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+a, #steam-botao:hover{
+    color: #b8b6b4;
+}
+a, #exibir-botao{
+    color: #3c4249;
+    text-decoration: none;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+a, #exibir-botao:hover{
+    color: #b8b6b4;
+}
+a, #amigos-botao{
+    color: #3c4249;
+    text-decoration: none;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+a, #amigos-botao:hover{
+    color: #b8b6b4;
+}
+a, #ajuda-botao{
+    color: #3c4249;
+    text-decoration: none;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+a, #ajuda-botao:hover{
+    color: #b8b6b4;
+}
+a, #jogos-botao{
+    color: #3c4249;
+    text-decoration: none;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+a, #jogos-botao:hover{
+    color: #b8b6b4;
+}
+/* Perfil superior  */
+#imagem-perfil{
+    border-right: 2px #c6d4df solid;
+    display: inline-block;
+    float: left;
+}
+#perfil-botao-nome{
+    color: #c6d4df;
+    border-right: 1px #c6d4df solid;
+    padding-right: 10px;
+}
+#perfil-botao-nome:hover{
+    color: white;
+    border-right: 1px white solid;
+}
+#perfil-botao-saldo{
+    color: #c6d4df;
+}
+#perfil-botao-saldo:hover{
+    color: white;
+}
+#perfil-botao{
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 5px;
+    width: 180px;
+    float: right;
+}
+#perfil-botao:hover{
+    background: #1d1f25;
+}
+
+/* Barra lateral */
+#barra-lateral{
+    background: #21242b;
+    width: 275px;
+    height: 578px;
+    border-right: #171a21 3px solid;
+    position: absolute;
+}
+#busca-lateral{
+    background: #171a21;
+    width: 100%;
+    height: 50px;
+}
+#barra-busca{
+    background: #21242b;
+    margin-left: 10px;
+    width: 250px;
+    height: 30px;
+    border: #21242b solid 3px;
+    border-radius: 5px;
+}
+#barra-busca:hover{
+    background: #343a40;
+    border: #343a40 solid 3px;
+}
+
+#jogos-recentes{
+    padding-top: 8px;
+    margin-top: 15px;
+    background: #171a21;
+    height: 30px;
+    text-transform: uppercase;
+    color: #b8b6b4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#jogos-recentes:hover{
+    background: #1d1f25;
+}
+/* Jogos jogados */
+#jogos{
+    margin-top: 10px;
+}
+#image-csgo{
+    float: left;
+    margin-left: 10px;
+}
+#csgo-jogo:hover{
+    color: white;
+}
+#image-terraria{
+    float: left;
+    margin-left: 10px;
+}
+#terraria-jogo:hover{
+    color: white;
+}
+#terraria-pag{
+    margin-top: 10px;
+}
+#image-hollow{
+    float: left;
+    margin-left: 10px;
+}
+#hollow-jogo:hover{
+    color: white;
+}
+#hollow-pag{
+    margin-top: 10px;
+}
+#image-geometry{
+    float: left;
+    margin-left: 10px;
+}
+#geometry-jogo:hover{
+    color: white;
+}
+#geometry-pag{
+    margin-top: 10px;
+}
+/* Conteúdo */
+#mais-jogados-pag{
+    float: left;
+    margin-left: 275px;
+    background-color: #1d1f25;
+    width: 1050px;
+    height: 390px;
+}
+#terraria-notice-img{
+    float: left;
+    border: #171a21 4px solid;
+    margin-left: 50px;
+}
+#hollow-notice-img{
+    margin-left: 340px;
+    float: left;
+    position: absolute;
+    border: #171a21 4px solid;
+}
+#titulo{
+    text-align: center;
+    margin-top: 20px;
+    color: #b8b6b4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    width: 400px;
+    margin-bottom: 10px;
+}
+#subtitulo{
+    margin-left: 50px;
+    margin-top: 5px;
+    color: #3c4249;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+/* Rodapé */
+footer{
+    height: 94px;
+    width: 100%;
+    position: relative;
+    background-color: #171a21;
+    margin-top: 484px;
+}
+#botao-downloads{
+    width: 85px;
+    padding-top: 25px;
+    margin-left: 561px;
+}
+#botao-downloads-texto{
+    letter-spacing: 3px;
+    font-size: 1em;
+    padding-bottom: 5px;
+    padding-left: 1px;
+}
+#botao-downloads-texto:hover{
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 1px;
+}
